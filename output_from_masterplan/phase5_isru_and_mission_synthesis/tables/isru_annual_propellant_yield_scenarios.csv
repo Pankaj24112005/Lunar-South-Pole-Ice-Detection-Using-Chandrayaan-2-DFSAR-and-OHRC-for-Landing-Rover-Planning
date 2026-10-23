@@ -1,0 +1,4 @@
+Plant_Scale,Annual_Water_Yield_t,Daily_Water_Yield_kg,Annual_LOX_Yield_t,Annual_LH2_Yield_t,Total_Bipropellant_t_yr,Required_Power_kWe,Lander_Ascents_Supported_yr,Crew_Life_Support_Days_yr,Target_Deployment_Phase
+Pilot Demonstration Plant,25.0,68.45,22.22,2.78,25.0,54.0,0.83,220,Phase A (Robotic Scout)
+Commercial Production Plant (Nominal),114.05,312.28,101.38,12.67,114.05,245.2,3.8,1000,Phase B (Permanent Outpost)
+Industrial Settlement Complex,350.0,958.25,311.11,38.89,350.0,750.0,11.67,3500,Phase C (Cislunar Economy)

@@ -1,0 +1,98 @@
+[
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251024t114751370_d_fp_d32/data/raw/20251024/ch2_sar_nrxl_20251024t114751370_d_r0a_xx_fp_xx_d32.dat",
+    "filename": "ch2_sar_nrxl_20251024t114751370_d_r0a_xx_fp_xx_d32.dat",
+    "extension": ".dat",
+    "size_bytes": "2803137377",
+    "size_mb": "2673.2801",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Level-0A Raw Radar Signal",
+    "product_type": "SAR Uncompressed Echo Data (I/Q SignedByte)",
+    "detected_format": "Raw Binary Telemetry",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251024t114751370_d_fp_d32/data/raw/20251024/ch2_sar_nrxl_20251024t114751370_d_r0a_xx_fp_xx_d32.xml",
+    "filename": "ch2_sar_nrxl_20251024t114751370_d_r0a_xx_fp_xx_d32.xml",
+    "extension": ".xml",
+    "size_bytes": "12954",
+    "size_mb": "0.0124",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Metadata",
+    "product_type": "XML Product Label",
+    "detected_format": "PDS4 XML Label",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251024t114751370_d_fp_d32/geometry/raw/20251024/ch2_sar_nrxl_20251024t114751370_g_oat_xx_fp_xx_d32.csv",
+    "filename": "ch2_sar_nrxl_20251024t114751370_g_oat_xx_fp_xx_d32.csv",
+    "extension": ".csv",
+    "size_bytes": "51315",
+    "size_mb": "0.0489",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Geometry / Calibration",
+    "product_type": "Orbit/Attitude Telemetry or Calibration LUT",
+    "detected_format": "Text / CSV",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251024t114751370_d_fp_d32/geometry/raw/20251024/ch2_sar_nrxl_20251024t114751370_g_oat_xx_fp_xx_d32.xml",
+    "filename": "ch2_sar_nrxl_20251024t114751370_g_oat_xx_fp_xx_d32.xml",
+    "extension": ".xml",
+    "size_bytes": "11522",
+    "size_mb": "0.011",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Metadata",
+    "product_type": "XML Product Label",
+    "detected_format": "PDS4 XML Label",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251025t211236510_d_fp_d18/data/raw/20251025/ch2_sar_nrxl_20251025t211236510_d_r0a_xx_fp_xx_d18.dat",
+    "filename": "ch2_sar_nrxl_20251025t211236510_d_r0a_xx_fp_xx_d18.dat",
+    "extension": ".dat",
+    "size_bytes": "2921247377",
+    "size_mb": "2785.9186",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Level-0A Raw Radar Signal",
+    "product_type": "SAR Uncompressed Echo Data (I/Q SignedByte)",
+    "detected_format": "Raw Binary Telemetry",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251025t211236510_d_fp_d18/data/raw/20251025/ch2_sar_nrxl_20251025t211236510_d_r0a_xx_fp_xx_d18.xml",
+    "filename": "ch2_sar_nrxl_20251025t211236510_d_r0a_xx_fp_xx_d18.xml",
+    "extension": ".xml",
+    "size_bytes": "12956",
+    "size_mb": "0.0124",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Metadata",
+    "product_type": "XML Product Label",
+    "detected_format": "PDS4 XML Label",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251025t211236510_d_fp_d18/geometry/raw/20251025/ch2_sar_nrxl_20251025t211236510_g_oat_xx_fp_xx_d18.csv",
+    "filename": "ch2_sar_nrxl_20251025t211236510_g_oat_xx_fp_xx_d18.csv",
+    "extension": ".csv",
+    "size_bytes": "51427",
+    "size_mb": "0.049",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Geometry / Calibration",
+    "product_type": "Orbit/Attitude Telemetry or Calibration LUT",
+    "detected_format": "Text / CSV",
+    "inspection_status": "Verified"
+  },
+  {
+    "relative_path": "L&S band/ch2_sar_nrxl_20251025t211236510_d_fp_d18/geometry/raw/20251025/ch2_sar_nrxl_20251025t211236510_g_oat_xx_fp_xx_d18.xml",
+    "filename": "ch2_sar_nrxl_20251025t211236510_g_oat_xx_fp_xx_d18.xml",
+    "extension": ".xml",
+    "size_bytes": "11522",
+    "size_mb": "0.011",
+    "dataset_category": "DFSAR_Level0A_Raw",
+    "product_level": "Metadata",
+    "product_type": "XML Product Label",
+    "detected_format": "PDS4 XML Label",
+    "inspection_status": "Verified"
+  }
+]

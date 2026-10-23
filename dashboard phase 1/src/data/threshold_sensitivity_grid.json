@@ -1,0 +1,83 @@
+[
+  {
+    "CPR_Threshold": "0.8",
+    "DOP_Threshold": "0.13",
+    "Candidates_Flagged": "38",
+    "Total_Ice_Area_km2": "148.24",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "100.0",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "0.8",
+    "DOP_Threshold": "0.2",
+    "Candidates_Flagged": "16",
+    "Total_Ice_Area_km2": "170.46",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "87.0",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "0.8",
+    "DOP_Threshold": "0.3",
+    "Candidates_Flagged": "32",
+    "Total_Ice_Area_km2": "170.61",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "86.9",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "1.0",
+    "DOP_Threshold": "0.13",
+    "Candidates_Flagged": "38",
+    "Total_Ice_Area_km2": "148.24",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "100.0",
+    "Condition_Type": "Baseline Reference"
+  },
+  {
+    "CPR_Threshold": "1.0",
+    "DOP_Threshold": "0.2",
+    "Candidates_Flagged": "16",
+    "Total_Ice_Area_km2": "170.46",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "87.0",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "1.0",
+    "DOP_Threshold": "0.3",
+    "Candidates_Flagged": "32",
+    "Total_Ice_Area_km2": "170.61",
+    "Baseline_Overlap_km2": "148.24",
+    "Stability_Index_Pct": "86.9",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "1.2",
+    "DOP_Threshold": "0.13",
+    "Candidates_Flagged": "39",
+    "Total_Ice_Area_km2": "147.9",
+    "Baseline_Overlap_km2": "147.9",
+    "Stability_Index_Pct": "99.8",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "1.2",
+    "DOP_Threshold": "0.2",
+    "Candidates_Flagged": "16",
+    "Total_Ice_Area_km2": "170.05",
+    "Baseline_Overlap_km2": "147.9",
+    "Stability_Index_Pct": "86.8",
+    "Condition_Type": "Sensitivity Probe"
+  },
+  {
+    "CPR_Threshold": "1.2",
+    "DOP_Threshold": "0.3",
+    "Candidates_Flagged": "29",
+    "Total_Ice_Area_km2": "170.19",
+    "Baseline_Overlap_km2": "147.9",
+    "Stability_Index_Pct": "86.7",
+    "Condition_Type": "Sensitivity Probe"
+  }
+]

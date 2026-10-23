@@ -1,0 +1,119 @@
+{
+  "phase": "Phase 2",
+  "generated_at": "2026-10-22T21:49:04.543945",
+  "file_count": 16,
+  "files": [
+    {
+      "relative_path": "outputs/phase2/figures/fig201_dfsar_raw_signal_telemetry_audit.png",
+      "filename": "fig201_dfsar_raw_signal_telemetry_audit.png",
+      "size_bytes": 922581,
+      "modified_time": "2026-10-22T21:48:21.759224",
+      "sha256": "1068dcd913cac267e5cd89cce70db0f27d6d4916c58ac23bde35f1e673bc412e"
+    },
+    {
+      "relative_path": "outputs/phase2/figures/fig202_dfsar_level4_polarimetric_ice_and_craters.png",
+      "filename": "fig202_dfsar_level4_polarimetric_ice_and_craters.png",
+      "size_bytes": 322520,
+      "modified_time": "2026-10-22T21:48:27.658463",
+      "sha256": "9700573893129dc13c869b092434116e8354dddc5a8ddfb8d6b36cebf8452a32"
+    },
+    {
+      "relative_path": "outputs/phase2/figures/fig203_ice_in_psr_cold_traps_correlation.png",
+      "filename": "fig203_ice_in_psr_cold_traps_correlation.png",
+      "size_bytes": 2019372,
+      "modified_time": "2026-10-22T21:48:43.610255",
+      "sha256": "4938858371dafcbdae66ddbf9ed7066025c2fe38e3c8910f2c6a37a690251ea3"
+    },
+    {
+      "relative_path": "outputs/phase2/figures/fig204_slope_roughness_discrimination.png",
+      "filename": "fig204_slope_roughness_discrimination.png",
+      "size_bytes": 163553,
+      "modified_time": "2026-10-22T21:48:49.430479",
+      "sha256": "00f885e0fecbc6842b46842d31669ac0566c1ee361d63021c05712b8b6529b29"
+    },
+    {
+      "relative_path": "outputs/phase2/figures/fig205_ice_confidence_tiers_classification.png",
+      "filename": "fig205_ice_confidence_tiers_classification.png",
+      "size_bytes": 426968,
+      "modified_time": "2026-10-22T21:48:54.676898",
+      "sha256": "fc89390b755ac27db839a3fdd50b6223525babd60aa386e3131158166f90d61e"
+    },
+    {
+      "relative_path": "outputs/phase2/figures/fig206_crater_case_studies_haworth_shoemaker.png",
+      "filename": "fig206_crater_case_studies_haworth_shoemaker.png",
+      "size_bytes": 2720395,
+      "modified_time": "2026-10-22T21:49:02.943917",
+      "sha256": "3be9bc992f35e0692648ab3fb63f333bf9ca7d787aec977078299e6e6f353a69"
+    },
+    {
+      "relative_path": "outputs/phase2/logs/phase2_execution.log",
+      "filename": "phase2_execution.log",
+      "size_bytes": 1962,
+      "modified_time": "2026-10-22T21:49:04.324343",
+      "sha256": "d20fca3fbd3bf9a15fa4efdaaaba70a22c381dad5b60ddbf7b4c449855bf3816"
+    },
+    {
+      "relative_path": "outputs/phase2/metadata/confidence_tier_summary.csv",
+      "filename": "confidence_tier_summary.csv",
+      "size_bytes": 324,
+      "modified_time": "2026-10-22T21:48:50.873840",
+      "sha256": "7e60ae4e16d805a0ba24d7fbe3d953608d9653741ee5359291bfa3df0e4724f2"
+    },
+    {
+      "relative_path": "outputs/phase2/metadata/crater_ice_inventory.csv",
+      "filename": "crater_ice_inventory.csv",
+      "size_bytes": 732,
+      "modified_time": "2026-10-22T21:48:59.483547",
+      "sha256": "3c5e78dc9234372bc3bf4498217ed294b046ddcbe954c7131a0a51f053301e5c"
+    },
+    {
+      "relative_path": "outputs/phase2/processed_data/dfsar_ice_clusters_80m.tif",
+      "filename": "dfsar_ice_clusters_80m.tif",
+      "size_bytes": 69119,
+      "modified_time": "2026-10-22T21:48:50.857040",
+      "sha256": "96baa48bbe0b4a6b7becf0d9155f977af539fa44d91f1830db76310133dfb9c4"
+    },
+    {
+      "relative_path": "outputs/phase2/processed_data/dfsar_ice_confidence_tiers_80m.tif",
+      "filename": "dfsar_ice_confidence_tiers_80m.tif",
+      "size_bytes": 21659,
+      "modified_time": "2026-10-22T21:48:50.249209",
+      "sha256": "1ea63e3380c442172af0f3b60dcbe2da9f862b2791ac50c483b699d837396e31"
+    },
+    {
+      "relative_path": "outputs/phase2/processed_data/dfsar_ice_cpr_dop_availability_notice.txt",
+      "filename": "dfsar_ice_cpr_dop_availability_notice.txt",
+      "size_bytes": 1095,
+      "modified_time": "2026-10-22T21:48:21.990270",
+      "sha256": "3057f8bb103313d7b9d7774de8f1642c230ad30f7310aad063875c15193da22e"
+    },
+    {
+      "relative_path": "outputs/phase2/reports/PHASE2_FINAL_SCIENTIFIC_AUDIT.md",
+      "filename": "PHASE2_FINAL_SCIENTIFIC_AUDIT.md",
+      "size_bytes": 43965,
+      "modified_time": "2026-10-22T18:03:51.268957",
+      "sha256": "7461bf4dc85461a4dac40516df4ce753a140c6469bb51da508d39c5410115870"
+    },
+    {
+      "relative_path": "outputs/phase2/reports/PHASE2_RADAR_ICE_DETECTION_REPORT.md",
+      "filename": "PHASE2_RADAR_ICE_DETECTION_REPORT.md",
+      "size_bytes": 2300,
+      "modified_time": "2026-10-22T21:49:04.316291",
+      "sha256": "8604444536a190a44e0c9fa686364b00191ac735940ad047488f69f2fdbf2504"
+    },
+    {
+      "relative_path": "outputs/phase2/reports/phase2_scientific_limitations.md",
+      "filename": "phase2_scientific_limitations.md",
+      "size_bytes": 1556,
+      "modified_time": "2026-10-22T21:49:04.296435",
+      "sha256": "189436bcccaf6e912cd1c94b8fe261c49b410fbbf8cdb7d6a10d02cb2e1f8a45"
+    },
+    {
+      "relative_path": "outputs/phase2/reports/TEAM_SHAURYAM_PHASE_WISE_METHODOLOGY.md",
+      "filename": "TEAM_SHAURYAM_PHASE_WISE_METHODOLOGY.md",
+      "size_bytes": 18883,
+      "modified_time": "2026-10-22T16:32:29.767361",
+      "sha256": "e291d827aacc7883b8d69307ef198523039cc86d75644537e0ef1b87d648dd73"
+    }
+  ]
+}

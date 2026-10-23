@@ -1,0 +1,50 @@
+[
+  {
+    "Risk_Category": "High CPR caused by boulder fields",
+    "Physical_Mechanism": "Corner reflections & rock scattering elevate CPR but maintain high DOP (>0.35)",
+    "Action_Taken": "Soft penalty based on OHRC boulder density proxy",
+    "Pixels_Affected": "2052968",
+    "Area_km2": "13138.995200000001",
+    "Mitigation_Outcome": "Penalized likelihood prevents rocky rims from being misclassified as ice"
+  },
+  {
+    "Risk_Category": "Rough crater walls & slopes",
+    "Physical_Mechanism": "Geometric tilt & faceted slopes raise backscatter and depolarize signal",
+    "Action_Taken": "Soft roughness penalty (1.0 - 0.30 * norm_roughness)",
+    "Pixels_Affected": "1579332",
+    "Area_km2": "10107.7248",
+    "Mitigation_Outcome": "Down-weighted rough wall candidates in Haworth and Shoemaker"
+  },
+  {
+    "Risk_Category": "Double-bounce scattering",
+    "Physical_Mechanism": "Right-angle reflections at crater rim-wall intersections mimic high CPR",
+    "Action_Taken": "Down-weighted via Freeman-Durden double-bounce power thresholding",
+    "Pixels_Affected": "483614",
+    "Area_km2": "3095.1296",
+    "Mitigation_Outcome": "Rejection of rim-base specular corner reflectors"
+  },
+  {
+    "Risk_Category": "Radar layover & foreshortening",
+    "Physical_Mechanism": "Steep slopes facing radar cause severe range compression and false anomalies",
+    "Action_Taken": "Hard rejection (layover == 1)",
+    "Pixels_Affected": "0",
+    "Area_km2": "0.0",
+    "Mitigation_Outcome": "Zeroed likelihood on geometrically distorted slopes"
+  },
+  {
+    "Risk_Category": "Radar shadow zones",
+    "Physical_Mechanism": "Topographic obstruction prevents radar signal from illuminating surface",
+    "Action_Taken": "Hard rejection (radar_shadow == 1)",
+    "Pixels_Affected": "0",
+    "Area_km2": "0.0",
+    "Mitigation_Outcome": "Excluded unilluminated radar blind spots from candidate ranking"
+  },
+  {
+    "Risk_Category": "Poor LOLA DEM coverage",
+    "Physical_Mechanism": "Elevated DEM error indicates sparse laser tracks and unreliable topography",
+    "Action_Taken": "Hard rejection (DEM_error > 3.0 m)",
+    "Pixels_Affected": "423",
+    "Area_km2": "2.7072000000000003",
+    "Mitigation_Outcome": "Safeguarded rover safety filtering from interpolation artifacts"
+  }
+]

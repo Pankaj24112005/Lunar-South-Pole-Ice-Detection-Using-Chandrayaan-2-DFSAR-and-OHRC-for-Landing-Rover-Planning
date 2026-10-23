@@ -1,0 +1,8 @@
+Subsystem_ID,Subsystem_Name,Operating_Location,Operating_Temp_K,Feed_Material,Mass_Input_kg_day,Product_Material,Mass_Output_kg_day,Thermal_Power_kWth,Electrical_Power_kWe,Process_Efficiency_Pct
+SS_01,RASSOR Autonomous Excavation & Hauling,PSR Ice Core (Deposit CAND_052),40.0,Icy Regolith (10.9% vol ice),4712.2,Raw Feedstock Regolith,4712.2,0.0,0.86,98.0
+SS_02,Thermal Crucible Sublimation Unit,Cabeus B Processing Facility,420.0,Excavated Icy Regolith,4712.2,Raw Water Vapor (Water 1) + Tailings,4712.2,20.6,8.24,96.5
+SS_03,Tailings Carbothermal Reduction,Cabeus B Processing Facility,1350.0,Dry Silicate Tailings (Fine Fraction),500.0,Carbon Monoxide (CO) + Slag,74.5,14.5,9.8,92.0
+SS_04,Methanation & Methane Pyrolysis (Carbon Loop),Cabeus B Processing Facility,573.0,CO + Recycled H2,85.1,Water Vapor (Water 2) + Recycled Carbon,79.8,3.2,2.4,95.0
+SS_05,Cryo-Insulated Pressurized Water Hauler,Cabeus B Traverse Corridor (4.74 km),280.0,Condensed Liquid Water (Water 1+2),312.3,Purified Water at Peak of Eternal Light,312.3,0.2,0.55,99.8
+SS_06,Solid Oxide Electrolysis (SOXE),Peak of Eternal Light (PEL Outpost),1073.0,Superheated Steam,312.3,Gaseous O2 (277.6 kg) + H2 (34.7 kg),312.3,18.0,184.77,94.0
+SS_07,Cryogenic Liquefaction & Propellant Storage,Peak of Eternal Light (PEL Outpost),20.0,Gaseous O2 & H2,312.3,Liquid Oxygen (LOX) & Liquid H2 (LH2),312.3,0.0,38.89,96.0

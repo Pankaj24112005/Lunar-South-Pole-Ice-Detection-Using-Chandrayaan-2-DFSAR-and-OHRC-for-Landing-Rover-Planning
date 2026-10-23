@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.256276,
+              -84.502538
+            ],
+            [
+              -1.515019,
+              -84.555421
+            ],
+            [
+              -55.618048,
+              -86.781857
+            ],
+            [
+              -55.604122,
+              -86.694557
+            ],
+            [
+              -2.256276,
+              -84.502538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "product_id": "ch2_sar_nrxl_20251024t114751370_d_fp_d32",
+        "orbit": 27510,
+        "band": "L",
+        "polarization": "Full-Pol (HH, HV, VH, VV)",
+        "processing_level": "Level-0A Raw Telemetry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -23.217621,
+              -84.502295
+            ],
+            [
+              -22.521599,
+              -84.556978
+            ],
+            [
+              -77.521892,
+              -86.567711
+            ],
+            [
+              -77.422285,
+              -86.482727
+            ],
+            [
+              -23.217621,
+              -84.502295
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "product_id": "ch2_sar_nrxl_20251025t211236510_d_fp_d18",
+        "orbit": 27527,
+        "band": "L",
+        "polarization": "Full-Pol (HH, HV, VH, VV)",
+        "processing_level": "Level-0A Raw Telemetry"
+      }
+    }
+  ]
+}

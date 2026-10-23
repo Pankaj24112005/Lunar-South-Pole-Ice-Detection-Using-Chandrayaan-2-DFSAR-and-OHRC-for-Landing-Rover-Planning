@@ -1,0 +1,22 @@
+[
+  {
+    "Dataset_Split": "Validation (Haworth Crater)",
+    "Sample_Size": "34659",
+    "Accuracy": "1.0",
+    "Precision": "1.0",
+    "Recall": "1.0",
+    "F1_Score": "1.0",
+    "ROC_AUC": "1.0",
+    "Weak_Label_Caveat": "Ground truth is synthetic/weakly labeled based on Putrevu et al. 2023 polarimetric thresholds"
+  },
+  {
+    "Dataset_Split": "Testing (Shoemaker & Sverdrup Craters)",
+    "Sample_Size": "50000",
+    "Accuracy": "1.0",
+    "Precision": "1.0",
+    "Recall": "1.0",
+    "F1_Score": "1.0",
+    "ROC_AUC": "1.0",
+    "Weak_Label_Caveat": "Crater-wise split ensures zero spatial autocorrelation leakage"
+  }
+]

@@ -1,0 +1,10 @@
+CPR_Threshold,DOP_Threshold,Candidates_Flagged,Total_Ice_Area_km2,Baseline_Overlap_km2,Stability_Index_Pct,Condition_Type
+0.8,0.13,38,148.24,148.24,100.0,Sensitivity Probe
+0.8,0.2,16,170.46,148.24,87.0,Sensitivity Probe
+0.8,0.3,32,170.61,148.24,86.9,Sensitivity Probe
+1.0,0.13,38,148.24,148.24,100.0,Baseline Reference
+1.0,0.2,16,170.46,148.24,87.0,Sensitivity Probe
+1.0,0.3,32,170.61,148.24,86.9,Sensitivity Probe
+1.2,0.13,39,147.9,147.9,99.8,Sensitivity Probe
+1.2,0.2,16,170.05,147.9,86.8,Sensitivity Probe
+1.2,0.3,29,170.19,147.9,86.7,Sensitivity Probe

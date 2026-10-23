@@ -1,0 +1,8 @@
+crater_name,approx_latitude,search_radius_km,total_psr_area_km2,radar_ice_area_km2,tier3_high_confidence_km2,tier2_moderate_confidence_km2,mean_ice_slope_deg,exploration_priority
+Cabeus B / Malapert S,86.5°S,35.0,352.73,144.75,2.69,1.91,24.11,Tier 2 Candidate
+South Polar Highlands,85.2°S,45.0,843.99,67.11,3.4,1.55,23.05,Tier 2 Candidate
+Sverdrup / de Gerlache,87.8°S,28.0,1002.79,29.74,1.63,2.46,20.18,Tier 2 Candidate
+Haworth Crater,87.4°S,26.0,1093.4,10.6,1.15,4.24,15.06,Tier 2 Candidate
+Shoemaker Crater,88.1°S,26.0,424.28,5.24,0.08,0.1,19.98,Tier 2 Candidate
+Faustini Crater,87.3°S,21.0,301.64,0.0,0.0,0.0,9.16,Topographic Reference
+Shackleton Crater,89.9°S,11.0,142.37,0.0,0.0,0.0,19.16,Topographic Reference

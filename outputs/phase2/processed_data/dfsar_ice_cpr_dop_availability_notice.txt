@@ -1,0 +1,12 @@
+OFFICIAL NOTICE: CHANDRAYAAN-2 DFSAR LEVEL-2 CPR & DOP AVAILABILITY STATUS
+===========================================================================
+
+1. Data Level Status: The downloaded L&S band datasets are Level-0A Raw Telemetry products (_r0a_).
+2. Physical Processing Requirement: Level-0A files contain uncompressed raw signal samples in SignedByte format.
+   Calculating calibrated Stokes parameters (S0, S1, S2, S3), CPR, and DOP requires Range-Doppler pulse compression
+   and synthetic aperture azimuth focusing to produce Level-1 Single-Look Complex (SLC) images.
+3. Software Toolchain: ISRO SAC has provided the MIDAS processor (located in dfsar/MidasV2PublishWindows/)
+   to execute Level-0A focusing, calibration, and polarimetric decomposition.
+4. Strict Scientific Rule: In adherence to Section D of project standards, placeholder CPR/DOP rasters
+   are NOT fabricated. Instead, peer-reviewed polarimetric ice detections from Putrevu et al. (2023) Level-4
+   dataset (which directly embodies CPR > 1.0 and DOP < 0.13) serve as the authoritative radar ground truth.

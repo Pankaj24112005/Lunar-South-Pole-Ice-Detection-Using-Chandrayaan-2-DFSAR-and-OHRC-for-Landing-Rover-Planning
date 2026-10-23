@@ -1,0 +1,34 @@
+# ==============================================================================
+# TEAM SHAURYAM — Root Git Ignore
+# Exclude raw satellite imagery, large rasters, and telemetry from Git
+# ==============================================================================
+
+# Raw multi-gigabyte satellite datasets
+dfsar/
+ohrc/
+lola/
+L&S band/
+archive/
+
+# Large GeoTIFF and raw binary rasters
+*.tif
+*.tiff
+*.dat
+*.tar
+*.zip
+*.tgz
+
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Node dependencies and build artifacts
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db

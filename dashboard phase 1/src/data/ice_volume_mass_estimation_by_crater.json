@@ -1,0 +1,58 @@
+[
+  {
+    "Crater_Feature": "South Polar Highlands",
+    "High_Confidence_Ice_Area_km2": "16.4",
+    "Mean_Volumetric_Ice_Pct": "10.6",
+    "Nominal_Ice_Volume_m3": "37046540.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "33.97",
+    "ISRU_Exploration_Value": "Prime Resource Core"
+  },
+  {
+    "Crater_Feature": "Cabeus B & Flank",
+    "High_Confidence_Ice_Area_km2": "10.08",
+    "Mean_Volumetric_Ice_Pct": "10.9",
+    "Nominal_Ice_Volume_m3": "22189178.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "20.35",
+    "ISRU_Exploration_Value": "Prime Resource Core"
+  },
+  {
+    "Crater_Feature": "Haworth Crater",
+    "High_Confidence_Ice_Area_km2": "6.21",
+    "Mean_Volumetric_Ice_Pct": "10.2",
+    "Nominal_Ice_Volume_m3": "12983106.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "11.91",
+    "ISRU_Exploration_Value": "Prime Resource Core"
+  },
+  {
+    "Crater_Feature": "Shoemaker Crater",
+    "High_Confidence_Ice_Area_km2": "7.75",
+    "Mean_Volumetric_Ice_Pct": "10.1",
+    "Nominal_Ice_Volume_m3": "5182906.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "4.75",
+    "ISRU_Exploration_Value": "Secondary Cold Trap"
+  },
+  {
+    "Crater_Feature": "Faustini Crater",
+    "High_Confidence_Ice_Area_km2": "0.0",
+    "Mean_Volumetric_Ice_Pct": "0.0",
+    "Nominal_Ice_Volume_m3": "0.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "0.0",
+    "ISRU_Exploration_Value": "Reserve Target"
+  },
+  {
+    "Crater_Feature": "Shackleton Crater",
+    "High_Confidence_Ice_Area_km2": "0.0",
+    "Mean_Volumetric_Ice_Pct": "0.0",
+    "Nominal_Ice_Volume_m3": "0.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "0.0",
+    "ISRU_Exploration_Value": "Reserve Target"
+  },
+  {
+    "Crater_Feature": "Sverdrup & de Gerlache",
+    "High_Confidence_Ice_Area_km2": "0.0",
+    "Mean_Volumetric_Ice_Pct": "0.0",
+    "Nominal_Ice_Volume_m3": "0.0",
+    "Nominal_Ice_Mass_Million_Tonnes": "0.0",
+    "ISRU_Exploration_Value": "Reserve Target"
+  }
+]

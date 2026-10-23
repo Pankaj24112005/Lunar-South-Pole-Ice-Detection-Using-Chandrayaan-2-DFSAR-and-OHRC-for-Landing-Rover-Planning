@@ -1,0 +1,18 @@
+2026-10-22 21:48:20,692 [INFO] Phase 2 environment initialized successfully.
+2026-10-22 21:48:20,710 [INFO] Radar polarimetric equations formulated and verified.
+2026-10-22 21:48:21,995 [INFO] DFSAR raw telemetry audit complete: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\figures\fig201_dfsar_raw_signal_telemetry_audit.png
+2026-10-22 21:48:21,998 [INFO] Availability notice saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\processed_data\dfsar_ice_cpr_dop_availability_notice.txt
+2026-10-22 21:48:23,613 [INFO] Ingested 80m core grids with shape (3750, 3750) and CRS IAU 30135.
+2026-10-22 21:48:29,018 [INFO] Polarimetric ice detection criterion map exported: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\figures\fig202_dfsar_level4_polarimetric_ice_and_craters.png
+2026-10-22 21:48:29,129 [INFO] Total radar ice pixels: 40224 (257.43 km^2)
+2026-10-22 21:48:29,130 [INFO] Ice pixels situated inside LOLA PSRs: 26642 (170.51 km^2, 66.23%)
+2026-10-22 21:48:29,131 [INFO] Ice pixels outside PSR cold traps: 13582 (86.92 km^2)
+2026-10-22 21:48:50,031 [INFO] Tier 3 (High Confidence - Flat PSR Floor): 8.95 km^2 (1,398 pixels)
+2026-10-22 21:48:50,033 [INFO] Tier 2 (Moderate Confidence - Moderate PSR Slope): 10.27 km^2 (1,604 pixels)
+2026-10-22 21:48:50,035 [INFO] Tier 1 (Candidate / Roughness Risk): 238.22 km^2 (37,222 pixels)
+2026-10-22 21:48:50,037 [INFO] Total contiguous clusters identified: 65
+2026-10-22 21:48:59,485 [INFO] Crater ice inventory exported to C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\metadata\crater_ice_inventory.csv
+2026-10-22 21:49:04,296 [INFO] Phase 2 limitations documented in C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\reports\phase2_scientific_limitations.md
+2026-10-22 21:49:04,326 [INFO] Phase 2 final report exported: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\reports\PHASE2_RADAR_ICE_DETECTION_REPORT.md
+2026-10-22 21:49:04,546 [INFO] Phase 2 manifest compiled with 16 files: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase2\manifests\phase2_file_manifest.json
+2026-10-22 21:49:04,561 [INFO] ALL PHASE 2 DELIVERABLES VERIFIED SUCCESSFULLY.

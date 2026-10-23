@@ -1,0 +1,21 @@
+2026-10-22 20:37:35,454 [INFO] Phase 1 execution environment initialized successfully.
+2026-10-22 20:37:35,469 [INFO] Phase 1 output hierarchy confirmed under: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1
+2026-10-22 20:37:35,623 [INFO] Total workspace files cataloged: 1844
+2026-10-22 20:37:35,624 [INFO] Total compressed archives audited: 5
+2026-10-22 20:37:35,656 [INFO] Official documentation verified and cataloged.
+2026-10-22 20:37:35,706 [INFO] Inventory compiled with 1844 items and saved to C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\reports\phase1_data_inventory.csv
+2026-10-22 20:37:35,707 [INFO] DFSAR Level-0A telemetry inventory saved: 8 files to C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\metadata\dfsar_level0a_inventory.csv
+2026-10-22 20:37:36,373 [INFO] CRS audit complete for 8 rasters. Saved to C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\metadata\coordinate_systems_audit.csv
+2026-10-22 20:38:25,558 [INFO] Windowed raster quality assessment completed.
+2026-10-22 20:38:25,587 [INFO] Missing data report exported to C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\reports\phase1_missing_data_report.md
+2026-10-22 20:38:36,960 [INFO] Clean DFSAR ice raster saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\dfsar_ice_mask_south_pole_25m_clean.tif
+2026-10-22 20:38:39,051 [INFO] Spatial coherence filtering removed 0 isolated noisy pixels in core zone.
+2026-10-22 20:39:28,418 [INFO] Extracted 312 OHRC strip footprints to GeoJSON: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\ohrc\ohrc_south_pole_cataloged_footprints.geojson
+2026-10-22 20:39:46,284 [INFO] Analysis-ready cropped elevation saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\lola_elevation_80m_cropped_core_sp.tif
+2026-10-22 20:39:46,285 [INFO] Analysis-ready cropped slope saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\lola_slope_80m_cropped_core_sp.tif
+2026-10-22 20:39:46,287 [INFO] Analysis-ready aligned 80m DFSAR ice saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\dfsar_ice_mask_south_pole_80m_aligned_lola.tif
+2026-10-22 20:39:46,288 [INFO] Analysis-ready aligned 80m LOLA PSR saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\lola_psr_80m_aligned_lola.tif
+2026-10-22 20:39:46,290 [INFO] Analysis-ready DFSAR raw swaths saved: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\processed_data\dfsar_raw_footprints_sp.geojson
+2026-10-22 20:39:46,310 [INFO] Phase 1 master report exported: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\reports\PHASE1_DATA_AUDIT_PREPROCESSING_REPORT.md
+2026-10-22 20:39:46,891 [INFO] Machine-readable manifest compiled with 29 files: C:\Users\DELL\Downloads\Lunar_ice_detection_2\outputs\phase1\manifests\phase1_file_manifest.json
+2026-10-22 20:39:46,907 [INFO] ALL PHASE 1 ACCEPTANCE CRITERIA VERIFIED SUCCESSFULLY.

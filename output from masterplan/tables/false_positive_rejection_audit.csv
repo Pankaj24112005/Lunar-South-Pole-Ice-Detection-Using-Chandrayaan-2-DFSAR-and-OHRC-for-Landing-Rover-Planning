@@ -1,0 +1,7 @@
+Risk_Category,Physical_Mechanism,Action_Taken,Pixels_Affected,Area_km2,Mitigation_Outcome
+High CPR caused by boulder fields,Corner reflections & rock scattering elevate CPR but maintain high DOP (>0.35),Soft penalty based on OHRC boulder density proxy,2052968,13138.995200000001,Penalized likelihood prevents rocky rims from being misclassified as ice
+Rough crater walls & slopes,Geometric tilt & faceted slopes raise backscatter and depolarize signal,Soft roughness penalty (1.0 - 0.30 * norm_roughness),1579332,10107.7248,Down-weighted rough wall candidates in Haworth and Shoemaker
+Double-bounce scattering,Right-angle reflections at crater rim-wall intersections mimic high CPR,Down-weighted via Freeman-Durden double-bounce power thresholding,483614,3095.1296,Rejection of rim-base specular corner reflectors
+Radar layover & foreshortening,Steep slopes facing radar cause severe range compression and false anomalies,Hard rejection (layover == 1),0,0.0,Zeroed likelihood on geometrically distorted slopes
+Radar shadow zones,Topographic obstruction prevents radar signal from illuminating surface,Hard rejection (radar_shadow == 1),0,0.0,Excluded unilluminated radar blind spots from candidate ranking
+Poor LOLA DEM coverage,Elevated DEM error indicates sparse laser tracks and unreliable topography,Hard rejection (DEM_error > 3.0 m),423,2.7072000000000003,Safeguarded rover safety filtering from interpolation artifacts

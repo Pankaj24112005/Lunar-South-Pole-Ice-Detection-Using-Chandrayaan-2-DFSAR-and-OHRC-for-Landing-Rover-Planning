@@ -1,0 +1,42 @@
+[
+  {
+    "Phase_ID": "Phase 1",
+    "Phase_Name": "Data Ingestion & Multi-Sensor Preprocessing",
+    "Primary_Sensors": "Chandrayaan-2 DFSAR (L&S), LRO LOLA DEM, LRO LOLA PSR",
+    "Core_Methodology": "Radiometric calibration, polar stereographic coregistration, 80m elevation slope derivation",
+    "Key_Discoveries_Deliverables": "10 Master Plan reference rasters, 28-layer feature catalog, 0% missing pixels",
+    "Operational_Status": "100% Completed & Audited"
+  },
+  {
+    "Phase_ID": "Phase 2",
+    "Phase_Name": "Subsurface Lunar Water-Ice Detection",
+    "Primary_Sensors": "DFSAR CPR & DOP, Polarimetric Scattering Matrices",
+    "Core_Methodology": "Dual polarimetric criteria (CPR > 1.0 & DOP < 0.13), Spatial Coherence Clustering",
+    "Key_Discoveries_Deliverables": "52 High-Probability Ice Deposits, Novel Candidate CAND_052 on Cabeus B Flank",
+    "Operational_Status": "100% Completed & Audited"
+  },
+  {
+    "Phase_ID": "Phase 3",
+    "Phase_Name": "Safe Landing Site Selection & Fuzzy Ranking",
+    "Primary_Sensors": "LOLA Slope, LOLA Illumination, Coregistered Ice Proximity",
+    "Core_Methodology": "Multi-Criteria Landing Suitability Index (LSI), Fuzzy Cognitive Mapping (FCM)",
+    "Key_Discoveries_Deliverables": "Prime Discovery Site LS_38 (Slope 2.17 deg, 100% illumination, 2.83 km to ice core)",
+    "Operational_Status": "100% Completed & Refined"
+  },
+  {
+    "Phase_ID": "Phase 4",
+    "Phase_Name": "Autonomous Rover Traverse & Dielectric Mixing Inversion",
+    "Primary_Sensors": "LOLA 3D Topography, LLL 3-Phase Dielectric Constants",
+    "Core_Methodology": "Dynamic Illumination-Constrained A* (DIC3D-A*), Looyenga-Landau-Lifshitz mixing",
+    "Key_Discoveries_Deliverables": "4.74 km safe traverse (max slope 11.66 deg), 52.55 Mt nominal ice reserves (20.35 Mt at Cabeus B)",
+    "Operational_Status": "100% Completed & Verified"
+  },
+  {
+    "Phase_ID": "Phase 5",
+    "Phase_Name": "Lunar ISRU Propellant Plant & Mission Synthesis",
+    "Primary_Sensors": "Integrated GIS, Mass-Energy Process Models",
+    "Core_Methodology": "RASSOR excavation, thermal sublimation, carbothermal reduction, SOXE, cryo-liquefaction",
+    "Key_Discoveries_Deliverables": "114.05 t/yr Bipropellant (101.4 t LOX, 12.7 t LH2), 3.8 lunar landers refueled/yr, 245.2 kWe baseload",
+    "Operational_Status": "100% Completed & Production Ready"
+  }
+]

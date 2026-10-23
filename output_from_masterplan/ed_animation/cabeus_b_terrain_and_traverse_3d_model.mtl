@@ -1,0 +1,45 @@
+# Material library for Cabeus B Lunar Terrain & Mission Model
+# Generated for TEAM SHAURYAM Lunar Ice Detection Mission
+
+newmtl mat_sunlit_plateau
+Ka 0.25 0.25 0.25
+Kd 0.72 0.70 0.68
+Ks 0.10 0.10 0.10
+Ns 10.0
+illum 2
+
+newmtl mat_psr_cold_trap
+Ka 0.05 0.06 0.08
+Kd 0.22 0.24 0.28
+Ks 0.05 0.05 0.05
+Ns 5.0
+illum 2
+
+newmtl mat_ice_core
+Ka 0.10 0.40 0.50
+Kd 0.25 0.85 0.95
+Ks 0.60 0.90 1.00
+Ns 60.0
+illum 2
+
+newmtl mat_landing_site_pad
+Ka 0.10 0.50 0.20
+Kd 0.15 0.95 0.40
+Ks 0.40 0.80 0.40
+Ns 30.0
+illum 2
+
+newmtl mat_rover_track
+Ka 0.60 0.40 0.05
+Kd 1.00 0.80 0.15
+Ks 0.80 0.70 0.30
+Ns 40.0
+illum 2
+
+newmtl mat_ice_target_beacon
+Ka 0.00 0.60 0.80
+Kd 0.00 0.95 1.00
+Ks 0.90 0.95 1.00
+Ns 80.0
+illum 2
+

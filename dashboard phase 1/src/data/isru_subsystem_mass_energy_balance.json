@@ -1,0 +1,93 @@
+[
+  {
+    "Subsystem_ID": "SS_01",
+    "Subsystem_Name": "RASSOR Autonomous Excavation & Hauling",
+    "Operating_Location": "PSR Ice Core (Deposit CAND_052)",
+    "Operating_Temp_K": "40.0",
+    "Feed_Material": "Icy Regolith (10.9% vol ice)",
+    "Mass_Input_kg_day": "4712.2",
+    "Product_Material": "Raw Feedstock Regolith",
+    "Mass_Output_kg_day": "4712.2",
+    "Thermal_Power_kWth": "0.0",
+    "Electrical_Power_kWe": "0.86",
+    "Process_Efficiency_Pct": "98.0"
+  },
+  {
+    "Subsystem_ID": "SS_02",
+    "Subsystem_Name": "Thermal Crucible Sublimation Unit",
+    "Operating_Location": "Cabeus B Processing Facility",
+    "Operating_Temp_K": "420.0",
+    "Feed_Material": "Excavated Icy Regolith",
+    "Mass_Input_kg_day": "4712.2",
+    "Product_Material": "Raw Water Vapor (Water 1) + Tailings",
+    "Mass_Output_kg_day": "4712.2",
+    "Thermal_Power_kWth": "20.6",
+    "Electrical_Power_kWe": "8.24",
+    "Process_Efficiency_Pct": "96.5"
+  },
+  {
+    "Subsystem_ID": "SS_03",
+    "Subsystem_Name": "Tailings Carbothermal Reduction",
+    "Operating_Location": "Cabeus B Processing Facility",
+    "Operating_Temp_K": "1350.0",
+    "Feed_Material": "Dry Silicate Tailings (Fine Fraction)",
+    "Mass_Input_kg_day": "500.0",
+    "Product_Material": "Carbon Monoxide (CO) + Slag",
+    "Mass_Output_kg_day": "74.5",
+    "Thermal_Power_kWth": "14.5",
+    "Electrical_Power_kWe": "9.8",
+    "Process_Efficiency_Pct": "92.0"
+  },
+  {
+    "Subsystem_ID": "SS_04",
+    "Subsystem_Name": "Methanation & Methane Pyrolysis (Carbon Loop)",
+    "Operating_Location": "Cabeus B Processing Facility",
+    "Operating_Temp_K": "573.0",
+    "Feed_Material": "CO + Recycled H2",
+    "Mass_Input_kg_day": "85.1",
+    "Product_Material": "Water Vapor (Water 2) + Recycled Carbon",
+    "Mass_Output_kg_day": "79.8",
+    "Thermal_Power_kWth": "3.2",
+    "Electrical_Power_kWe": "2.4",
+    "Process_Efficiency_Pct": "95.0"
+  },
+  {
+    "Subsystem_ID": "SS_05",
+    "Subsystem_Name": "Cryo-Insulated Pressurized Water Hauler",
+    "Operating_Location": "Cabeus B Traverse Corridor (4.74 km)",
+    "Operating_Temp_K": "280.0",
+    "Feed_Material": "Condensed Liquid Water (Water 1+2)",
+    "Mass_Input_kg_day": "312.3",
+    "Product_Material": "Purified Water at Peak of Eternal Light",
+    "Mass_Output_kg_day": "312.3",
+    "Thermal_Power_kWth": "0.2",
+    "Electrical_Power_kWe": "0.55",
+    "Process_Efficiency_Pct": "99.8"
+  },
+  {
+    "Subsystem_ID": "SS_06",
+    "Subsystem_Name": "Solid Oxide Electrolysis (SOXE)",
+    "Operating_Location": "Peak of Eternal Light (PEL Outpost)",
+    "Operating_Temp_K": "1073.0",
+    "Feed_Material": "Superheated Steam",
+    "Mass_Input_kg_day": "312.3",
+    "Product_Material": "Gaseous O2 (277.6 kg) + H2 (34.7 kg)",
+    "Mass_Output_kg_day": "312.3",
+    "Thermal_Power_kWth": "18.0",
+    "Electrical_Power_kWe": "184.77",
+    "Process_Efficiency_Pct": "94.0"
+  },
+  {
+    "Subsystem_ID": "SS_07",
+    "Subsystem_Name": "Cryogenic Liquefaction & Propellant Storage",
+    "Operating_Location": "Peak of Eternal Light (PEL Outpost)",
+    "Operating_Temp_K": "20.0",
+    "Feed_Material": "Gaseous O2 & H2",
+    "Mass_Input_kg_day": "312.3",
+    "Product_Material": "Liquid Oxygen (LOX) & Liquid H2 (LH2)",
+    "Mass_Output_kg_day": "312.3",
+    "Thermal_Power_kWth": "0.0",
+    "Electrical_Power_kWe": "38.89",
+    "Process_Efficiency_Pct": "96.0"
+  }
+]

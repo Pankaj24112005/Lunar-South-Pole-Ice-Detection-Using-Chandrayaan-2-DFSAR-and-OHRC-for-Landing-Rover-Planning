@@ -1,0 +1,79 @@
+[
+  {
+    "crater_name": "Cabeus B / Malapert S",
+    "approx_latitude": "86.5\u00b0S",
+    "search_radius_km": "35.0",
+    "total_psr_area_km2": "352.73",
+    "radar_ice_area_km2": "144.75",
+    "tier3_high_confidence_km2": "2.69",
+    "tier2_moderate_confidence_km2": "1.91",
+    "mean_ice_slope_deg": "24.11",
+    "exploration_priority": "Tier 2 Candidate"
+  },
+  {
+    "crater_name": "South Polar Highlands",
+    "approx_latitude": "85.2\u00b0S",
+    "search_radius_km": "45.0",
+    "total_psr_area_km2": "843.99",
+    "radar_ice_area_km2": "67.11",
+    "tier3_high_confidence_km2": "3.4",
+    "tier2_moderate_confidence_km2": "1.55",
+    "mean_ice_slope_deg": "23.05",
+    "exploration_priority": "Tier 2 Candidate"
+  },
+  {
+    "crater_name": "Sverdrup / de Gerlache",
+    "approx_latitude": "87.8\u00b0S",
+    "search_radius_km": "28.0",
+    "total_psr_area_km2": "1002.79",
+    "radar_ice_area_km2": "29.74",
+    "tier3_high_confidence_km2": "1.63",
+    "tier2_moderate_confidence_km2": "2.46",
+    "mean_ice_slope_deg": "20.18",
+    "exploration_priority": "Tier 2 Candidate"
+  },
+  {
+    "crater_name": "Haworth Crater",
+    "approx_latitude": "87.4\u00b0S",
+    "search_radius_km": "26.0",
+    "total_psr_area_km2": "1093.4",
+    "radar_ice_area_km2": "10.6",
+    "tier3_high_confidence_km2": "1.15",
+    "tier2_moderate_confidence_km2": "4.24",
+    "mean_ice_slope_deg": "15.06",
+    "exploration_priority": "Tier 2 Candidate"
+  },
+  {
+    "crater_name": "Shoemaker Crater",
+    "approx_latitude": "88.1\u00b0S",
+    "search_radius_km": "26.0",
+    "total_psr_area_km2": "424.28",
+    "radar_ice_area_km2": "5.24",
+    "tier3_high_confidence_km2": "0.08",
+    "tier2_moderate_confidence_km2": "0.1",
+    "mean_ice_slope_deg": "19.98",
+    "exploration_priority": "Tier 2 Candidate"
+  },
+  {
+    "crater_name": "Faustini Crater",
+    "approx_latitude": "87.3\u00b0S",
+    "search_radius_km": "21.0",
+    "total_psr_area_km2": "301.64",
+    "radar_ice_area_km2": "0.0",
+    "tier3_high_confidence_km2": "0.0",
+    "tier2_moderate_confidence_km2": "0.0",
+    "mean_ice_slope_deg": "9.16",
+    "exploration_priority": "Topographic Reference"
+  },
+  {
+    "crater_name": "Shackleton Crater",
+    "approx_latitude": "89.9\u00b0S",
+    "search_radius_km": "11.0",
+    "total_psr_area_km2": "142.37",
+    "radar_ice_area_km2": "0.0",
+    "tier3_high_confidence_km2": "0.0",
+    "tier2_moderate_confidence_km2": "0.0",
+    "mean_ice_slope_deg": "19.16",
+    "exploration_priority": "Topographic Reference"
+  }
+]

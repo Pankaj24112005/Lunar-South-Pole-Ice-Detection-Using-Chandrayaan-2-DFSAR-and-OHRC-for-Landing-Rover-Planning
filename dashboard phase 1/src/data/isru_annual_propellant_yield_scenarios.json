@@ -1,0 +1,38 @@
+[
+  {
+    "Plant_Scale": "Pilot Demonstration Plant",
+    "Annual_Water_Yield_t": "25.0",
+    "Daily_Water_Yield_kg": "68.45",
+    "Annual_LOX_Yield_t": "22.22",
+    "Annual_LH2_Yield_t": "2.78",
+    "Total_Bipropellant_t_yr": "25.0",
+    "Required_Power_kWe": "54.0",
+    "Lander_Ascents_Supported_yr": "0.83",
+    "Crew_Life_Support_Days_yr": "220",
+    "Target_Deployment_Phase": "Phase A (Robotic Scout)"
+  },
+  {
+    "Plant_Scale": "Commercial Production Plant (Nominal)",
+    "Annual_Water_Yield_t": "114.05",
+    "Daily_Water_Yield_kg": "312.28",
+    "Annual_LOX_Yield_t": "101.38",
+    "Annual_LH2_Yield_t": "12.67",
+    "Total_Bipropellant_t_yr": "114.05",
+    "Required_Power_kWe": "245.2",
+    "Lander_Ascents_Supported_yr": "3.8",
+    "Crew_Life_Support_Days_yr": "1000",
+    "Target_Deployment_Phase": "Phase B (Permanent Outpost)"
+  },
+  {
+    "Plant_Scale": "Industrial Settlement Complex",
+    "Annual_Water_Yield_t": "350.0",
+    "Daily_Water_Yield_kg": "958.25",
+    "Annual_LOX_Yield_t": "311.11",
+    "Annual_LH2_Yield_t": "38.89",
+    "Total_Bipropellant_t_yr": "350.0",
+    "Required_Power_kWe": "750.0",
+    "Lander_Ascents_Supported_yr": "11.67",
+    "Crew_Life_Support_Days_yr": "3500",
+    "Target_Deployment_Phase": "Phase C (Cislunar Economy)"
+  }
+]

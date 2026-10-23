@@ -1,0 +1,37 @@
+[
+  {
+    "Criterion_Code": "C1",
+    "Criterion_Name": "Slope Safety",
+    "Weight": "0.25",
+    "Optimal_Threshold": "<= 8.0 deg",
+    "Physical_Rationale": "Prevents lander tip-over on touchdown"
+  },
+  {
+    "Criterion_Code": "C2",
+    "Criterion_Name": "Ice Proximity",
+    "Weight": "0.25",
+    "Optimal_Threshold": "2.0 to 7.0 km",
+    "Physical_Rationale": "Enables rover traverse within 1 lunar day while landing outside freezing PSR"
+  },
+  {
+    "Criterion_Code": "C3",
+    "Criterion_Name": "Solar Illumination",
+    "Weight": "0.2",
+    "Optimal_Threshold": ">= 65% availability",
+    "Physical_Rationale": "Solar power generation and direct Earth communication line-of-sight"
+  },
+  {
+    "Criterion_Code": "C4",
+    "Criterion_Name": "Hazard Avoidance",
+    "Weight": "0.2",
+    "Optimal_Threshold": "Boulder density < 0.10, Wall dist > 300m",
+    "Physical_Rationale": "Mitigates rock collision and mass-wasting debris hazards"
+  },
+  {
+    "Criterion_Code": "C5",
+    "Criterion_Name": "Micro-Roughness",
+    "Weight": "0.1",
+    "Optimal_Threshold": "<= 8.0 m RMS",
+    "Physical_Rationale": "Assures smooth surface for landing gear footpads"
+  }
+]

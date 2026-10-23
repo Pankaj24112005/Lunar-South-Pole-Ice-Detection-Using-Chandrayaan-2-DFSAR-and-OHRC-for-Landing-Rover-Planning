@@ -1,0 +1,210 @@
+{
+  "phase": "Phase 1",
+  "generated_at": "2026-10-22T20:39:46.890439",
+  "file_count": 29,
+  "files": [
+    {
+      "relative_path": "outputs/phase1/figures/fig01_lola_elevation_80m_sp.png",
+      "filename": "fig01_lola_elevation_80m_sp.png",
+      "size_bytes": 1109257,
+      "modified_time": "2026-10-22T20:39:12.198633",
+      "sha256": "a920c7be49ee40539c0bb0563f294a9cef34b50a2aeb49b412eea48b080f74d1"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig02_lola_elevation_hillshade_az315_alt45.png",
+      "filename": "fig02_lola_elevation_hillshade_az315_alt45.png",
+      "size_bytes": 2158735,
+      "modified_time": "2026-10-22T20:39:13.592697",
+      "sha256": "1bd65b427bee4d72285c5493fb7501f0f9a4ba360a9b09b275a28dac37515a8d"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig03_lola_south_pole_slope.png",
+      "filename": "fig03_lola_south_pole_slope.png",
+      "size_bytes": 2627685,
+      "modified_time": "2026-10-22T20:39:14.698160",
+      "sha256": "47aa620abcc979696ff513a1ea87ab5c240a8c6a2d4ccc8772c6227b9756d3e1"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig04_lola_elevation_uncertainty_err.png",
+      "filename": "fig04_lola_elevation_uncertainty_err.png",
+      "size_bytes": 2067862,
+      "modified_time": "2026-10-22T20:39:15.660631",
+      "sha256": "ab45e86965c001d4ee068c4d43aee54429441cdcb8fb24a3496daf21b01056f1"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig05_lola_permanently_shadowed_regions_20m.png",
+      "filename": "fig05_lola_permanently_shadowed_regions_20m.png",
+      "size_bytes": 918627,
+      "modified_time": "2026-10-22T20:39:19.766379",
+      "sha256": "76c18b4d3836fad8bcf3aeedf42c6469877fff7fc0a87baeba7c0fe0ef5afd3f"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig06_dfsar_water_ice_detections_south_pole.png",
+      "filename": "fig06_dfsar_water_ice_detections_south_pole.png",
+      "size_bytes": 310461,
+      "modified_time": "2026-10-22T20:38:33.068623",
+      "sha256": "d48d26fafc3a6be0c758cac11cfc5757e85cc654bb3a1148219eac0eded30884"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig07_dfsar_water_ice_north_pole.png",
+      "filename": "fig07_dfsar_water_ice_north_pole.png",
+      "size_bytes": 78212,
+      "modified_time": "2026-10-22T20:38:36.093584",
+      "sha256": "97160c3eddb0220774019ad227025acceda75a6a58993d6e53e2e8aa87632057"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig08_multisensor_coregistered_overlay_south_pole.png",
+      "filename": "fig08_multisensor_coregistered_overlay_south_pole.png",
+      "size_bytes": 1516378,
+      "modified_time": "2026-10-22T20:39:27.276524",
+      "sha256": "ee3f94a8b80280cdc4eb89f46a288c386ed1d1b15899d57a3c74739a11cf0339"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig09_ohrc_footprints_coverage_audit.png",
+      "filename": "fig09_ohrc_footprints_coverage_audit.png",
+      "size_bytes": 112168,
+      "modified_time": "2026-10-22T20:39:28.353777",
+      "sha256": "c5521e15accef0035c60cdf8880b18bd714d46f78dae3964f2e631f5187c1e0e"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig11_dem_filter_comparison_raw_vs_smooth.png",
+      "filename": "fig11_dem_filter_comparison_raw_vs_smooth.png",
+      "size_bytes": 2833363,
+      "modified_time": "2026-10-22T20:39:17.873243",
+      "sha256": "891d448074b10d62ea4efa1423d022f54ea36bed7ec24b699720de84e43481c7"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig12_ice_mask_coherence_filter_comparison.png",
+      "filename": "fig12_ice_mask_coherence_filter_comparison.png",
+      "size_bytes": 145263,
+      "modified_time": "2026-10-22T20:39:01.277242",
+      "sha256": "465680ec1fbeae52301cbc48e782fe7992ef4b5f2dd319e438e6aa3fd8d6b677"
+    },
+    {
+      "relative_path": "outputs/phase1/figures/fig13_spatial_overlap_and_enclosure_diagnostic.png",
+      "filename": "fig13_spatial_overlap_and_enclosure_diagnostic.png",
+      "size_bytes": 120682,
+      "modified_time": "2026-10-22T20:37:36.926512",
+      "sha256": "f3b33ef75d17ba96d6c52fae1f934e301695a83d6e18efa80d3c12dca09ea21b"
+    },
+    {
+      "relative_path": "outputs/phase1/logs/phase1_execution.log",
+      "filename": "phase1_execution.log",
+      "size_bytes": 2789,
+      "modified_time": "2026-10-22T20:39:46.310339",
+      "sha256": "cf91319be09b2ebb708dfb728650d3d72c6b6e133364f98a19a0d69c4a90cdfa"
+    },
+    {
+      "relative_path": "outputs/phase1/metadata/coordinate_systems_audit.csv",
+      "filename": "coordinate_systems_audit.csv",
+      "size_bytes": 6116,
+      "modified_time": "2026-10-22T20:37:36.366288",
+      "sha256": "998124551f39be74a10a1f89f3243ef119e5814a21fe73cfb5faa03ea5f23dfb"
+    },
+    {
+      "relative_path": "outputs/phase1/metadata/dfsar_level0a_inventory.csv",
+      "filename": "dfsar_level0a_inventory.csv",
+      "size_bytes": 2458,
+      "modified_time": "2026-10-22T20:37:35.694205",
+      "sha256": "15451681981e428d53127a4b021e1bf44a9d930add0dbe18fb15642141afb56a"
+    },
+    {
+      "relative_path": "outputs/phase1/metadata/official_documentation_summary.csv",
+      "filename": "official_documentation_summary.csv",
+      "size_bytes": 439,
+      "modified_time": "2026-10-22T20:37:35.655105",
+      "sha256": "ca1936feb8d47e312ae18bed80fea9e9e9b87d9cb3e393fb55c9db978a644b43"
+    },
+    {
+      "relative_path": "outputs/phase1/metadata/raster_quality_metrics.csv",
+      "filename": "raster_quality_metrics.csv",
+      "size_bytes": 931,
+      "modified_time": "2026-10-22T20:38:25.558333",
+      "sha256": "f4899b9b16ccfdc0d55d956268a34e925a33c9d13eeec68aea544b9dd380df5e"
+    },
+    {
+      "relative_path": "outputs/phase1/ohrc/ohrc_south_pole_cataloged_footprints.geojson",
+      "filename": "ohrc_south_pole_cataloged_footprints.geojson",
+      "size_bytes": 259777,
+      "modified_time": "2026-10-22T20:39:28.054752",
+      "sha256": "535299e60cba0fb3a375778475459cc2d8b6d57114a024877497dd89a6f820f5"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/dfsar_ice_mask_south_pole_25m_clean.tif",
+      "filename": "dfsar_ice_mask_south_pole_25m_clean.tif",
+      "size_bytes": 665520,
+      "modified_time": "2026-10-22T20:38:30.748456",
+      "sha256": "22407ea42d410169df0cf33e1af9424f2fc952ce16cfcbd2dbdc4a79b7b4280a"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/dfsar_ice_mask_south_pole_80m_aligned_lola.tif",
+      "filename": "dfsar_ice_mask_south_pole_80m_aligned_lola.tif",
+      "size_bytes": 69791,
+      "modified_time": "2026-10-22T20:39:40.131094",
+      "sha256": "3c159288c8cb6c4849228c76b707de3a03a5ad6c7db7f56e18e128aac9c48c33"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/dfsar_raw_footprints_sp.geojson",
+      "filename": "dfsar_raw_footprints_sp.geojson",
+      "size_bytes": 1726,
+      "modified_time": "2026-10-22T20:39:46.283516",
+      "sha256": "1b274ea804e9c22f4557b68902176be5a593e1410070c775a1296cafdb8e7a6a"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/lola_elevation_80m_cropped_core_sp.tif",
+      "filename": "lola_elevation_80m_cropped_core_sp.tif",
+      "size_bytes": 49022106,
+      "modified_time": "2026-10-22T20:39:32.927670",
+      "sha256": "136af8c5dc82b201bfb3dc97864356417d04d47550d9a2933e6ed95c7fdd3327"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/lola_psr_80m_aligned_lola.tif",
+      "filename": "lola_psr_80m_aligned_lola.tif",
+      "size_bytes": 419645,
+      "modified_time": "2026-10-22T20:39:46.210434",
+      "sha256": "5cc212c41783bc07fa3b31aac8d3c1963320b29982adb25d5fa9920249dea467"
+    },
+    {
+      "relative_path": "outputs/phase1/processed_data/lola_slope_80m_cropped_core_sp.tif",
+      "filename": "lola_slope_80m_cropped_core_sp.tif",
+      "size_bytes": 50013313,
+      "modified_time": "2026-10-22T20:39:37.207246",
+      "sha256": "b24ad478bb63eb746d4cae914fb7d2ace0dfe0ca2df3250924fbc47677313199"
+    },
+    {
+      "relative_path": "outputs/phase1/reports/PHASE1_DATA_AUDIT_PREPROCESSING_REPORT.md",
+      "filename": "PHASE1_DATA_AUDIT_PREPROCESSING_REPORT.md",
+      "size_bytes": 2390,
+      "modified_time": "2026-10-22T20:39:46.307275",
+      "sha256": "22aed5adc7ff3b120fb776f4b4e0324c933c8e848ad160652289d581d4dd13cb"
+    },
+    {
+      "relative_path": "outputs/phase1/reports/phase1_data_audit_report.md",
+      "filename": "phase1_data_audit_report.md",
+      "size_bytes": 110,
+      "modified_time": "2026-10-22T20:39:46.309342",
+      "sha256": "76870b46f349a17e03cf0ff4598ea5baa12453b8cd2235b8bcaecf6046e2b0d6"
+    },
+    {
+      "relative_path": "outputs/phase1/reports/phase1_data_inventory.csv",
+      "filename": "phase1_data_inventory.csv",
+      "size_bytes": 310368,
+      "modified_time": "2026-10-22T20:37:35.694205",
+      "sha256": "d5f841b6151a1a2bc27a98cb856c7b0a7fa7af54e558dbe6dc4c4db67287e4cb"
+    },
+    {
+      "relative_path": "outputs/phase1/reports/phase1_missing_data_report.md",
+      "filename": "phase1_missing_data_report.md",
+      "size_bytes": 1528,
+      "modified_time": "2026-10-22T20:38:25.585928",
+      "sha256": "359cd20fe35582c4d021e678b0fa17c4e60b4091d7b6b7513d6480be9699cf8e"
+    },
+    {
+      "relative_path": "outputs/phase1/reports/phase1_preprocessing_report.md",
+      "filename": "phase1_preprocessing_report.md",
+      "size_bytes": 175,
+      "modified_time": "2026-10-22T20:39:46.308344",
+      "sha256": "409b1476bf9327f86e8ef7655b2a7c7979823fe8aa3b1f04657312063b4b7234"
+    }
+  ]
+}

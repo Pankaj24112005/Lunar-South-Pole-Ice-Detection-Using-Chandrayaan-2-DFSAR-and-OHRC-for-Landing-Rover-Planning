@@ -1,0 +1,23 @@
+[
+  {
+    "tier_name": "Tier 3 (High Confidence)",
+    "criteria": "Radar Ice + Confirmed PSR + Slope <= 10\u00b0",
+    "pixel_count": "1398",
+    "area_km2": "8.95",
+    "percent_total": "3.48"
+  },
+  {
+    "tier_name": "Tier 2 (Moderate Confidence)",
+    "criteria": "Radar Ice + Confirmed PSR + Slope 10\u00b0-15\u00b0",
+    "pixel_count": "1604",
+    "area_km2": "10.27",
+    "percent_total": "3.99"
+  },
+  {
+    "tier_name": "Tier 1 (Candidate / Roughness Risk)",
+    "criteria": "Radar Ice + Outside PSR or Slope > 15\u00b0",
+    "pixel_count": "37222",
+    "area_km2": "238.22",
+    "percent_total": "92.54"
+  }
+]

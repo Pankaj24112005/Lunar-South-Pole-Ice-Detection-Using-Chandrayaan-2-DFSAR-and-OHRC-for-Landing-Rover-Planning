@@ -1,0 +1,495 @@
+# MASTER PROJECT IMPLEMENTATION PROMPT — LUNAR SOUTH POLE WATER-ICE DETECTION AND RESOURCE MAPPING
+
+## 1. Your Role and Responsibilities
+
+Act as a senior lunar remote-sensing scientist, satellite image-processing specialist, planetary geospatial analyst, radar scientist, and ISRO-style lunar mission research engineer with extensive experience in Chandrayaan-2 data products, lunar South Pole analysis, SAR processing, LOLA topography, permanently shadowed regions (PSRs), water-ice research, and scientific Python workflows.
+
+You are responsible for building a scientifically defensible, reproducible, data-driven lunar water-ice detection and resource-mapping research project.
+
+Work professionally. Do not merely create visualizations or a demonstration. Build a processing pipeline whose results can be traced back to the original downloaded scientific datasets.
+
+**Critical execution rule: Implement Phase 1 only.** After completing Phase 1, save all outputs and produce a comprehensive Phase 1 report. Then stop and ask me whether I want to start Phase 2. Do not automatically begin Phase 2, even if you have enough time or resources.
+
+---
+
+## 2. Project Objective
+
+Develop a research workflow for analyzing lunar South Pole remote-sensing data to investigate potential water-ice-bearing regions, characterize their spatial relationships with permanently shadowed regions and lunar terrain, assess uncertainty, and eventually support resource mapping and landing-site/rover mission planning.
+
+The project must investigate the potential contribution of the following datasets:
+
+1. OHRC — Chandrayaan-2 Orbiter High Resolution Camera imagery and associated data products.
+2. DFSAR — Chandrayaan-2 Dual Frequency Synthetic Aperture Radar data products.
+3. LOLA — Lunar Orbiter Laser Altimeter topographic and derived products.
+
+The final research workflow should distinguish between:
+- Directly observed measurements.
+- Derived image-processing products.
+- Candidate water-ice indicators.
+- Spatially inferred relationships.
+- Scientific interpretations and hypotheses.
+
+Do not claim that an image-processing result proves the presence of water ice. Use scientifically cautious terminology such as “potential ice-bearing area,” “candidate region,” or “ice-consistent signature” where appropriate.
+
+---
+
+## 3. Project Phases — Fixed Structure
+
+Use exactly these five top-level phases. Do not introduce subphases, additional phases, or a parallel phase numbering system. Tasks and notebook sections may exist inside each phase, but the project structure must remain these five phases.
+
+### Phase 1 — Data Audit, Preprocessing & Quality Enhancement
+
+Inspect all downloaded datasets and documentation, verify their scientific meaning, inventory available files, check coordinate systems and data quality, investigate missing or invalid data, and develop a reproducible preprocessing pipeline.
+
+Process the available raw OHRC, DFSAR, and LOLA data into quality-controlled, analysis-ready outputs where technically possible. Use appropriate image-processing methods for each data type without destroying scientifically meaningful signals.
+
+This phase establishes the trusted data foundation for all subsequent phases.
+
+### Phase 2 — Subsurface Lunar Ice Detection Using DFSAR Radar Polarimetry
+
+Investigate whether the available DFSAR products contain measurements suitable for identifying radar signatures potentially consistent with subsurface or near-surface water ice.
+
+Evaluate the actual radar channels, frequency bands, polarization information, incidence geometry, calibration status, resolution, and metadata before selecting detection methods.
+
+Use only methods supported by the available observations. If polarimetric decomposition or another radar technique is not supported by the downloaded products, explicitly explain why and select a scientifically justified alternative.
+
+Generate candidate detections, supporting evidence layers, and uncertainty information. Do not treat radar brightness or any single radar signature as definitive proof of ice.
+
+### Phase 3 — Multisensor Ice Mapping & Landing Site Selection
+
+Integrate the valid DFSAR-derived candidate evidence with suitable OHRC imagery, LOLA terrain information, and independently verified PSR or illumination information where available.
+
+Evaluate spatial correspondence between candidate ice-related signatures, terrain, slope, roughness, shadowing, and other relevant environmental constraints.
+
+Develop a spatially explicit candidate-region map and a transparent landing-site suitability assessment. Keep scientific evidence for ice separate from engineering suitability scores.
+
+Do not manufacture observations or assume that every dataset covers the same geographical area.
+
+### Phase 4 — Rover Traverse Planning & Uncertainty-Aware Ice Resource Estimation
+
+For suitable candidate regions, investigate rover traverse planning using verified terrain and obstacle information.
+
+Develop a cost-based path-planning approach that can account for slope, terrain hazards, traversal distance, restricted regions, and mission constraints supported by the available data.
+
+Estimate potential ice-resource indicators only when the observations and a defensible estimation model support the calculation. Distinguish mapped candidate area from estimated ice abundance, volume, mass, or recoverable resources.
+
+Include uncertainty analysis and identify limitations that prevent a reliable estimate.
+
+### Phase 5 — Lunar ISRU Analysis, Interactive Dashboard & Mission Outputs
+
+Develop the final interactive research dashboard and mission-oriented outputs from the validated results of the preceding phases.
+
+The dashboard should communicate:
+- Dataset provenance and processing quality.
+- Radar-derived candidate ice evidence.
+- Spatial relationships with terrain and shadowed regions.
+- Candidate landing-site suitability.
+- Rover routes and traversal costs, where supported.
+- Uncertainty, limitations, and evidence strength.
+- Potential in-situ resource utilization (ISRU) implications, clearly distinguished from demonstrated resource availability.
+
+Include exportable maps, figures, tables, metadata, and a consolidated research report.
+
+Do not present speculative resource recovery or mission feasibility as proven.
+
+---
+
+## 4. Available Data and Local Directory Structure
+
+My downloaded data are organized approximately as follows:
+
+Lunar_ice_detection_2/
+- DFSAR/
+  - ch2_sar_pds_dp_archive_sis_v1.3
+  - ch2_sar_pds_dp_archive_sis_v1.4
+  - ch2_dfsar_user_manual_v1.0
+  - User_Guide_DFSAR_Der_Mosaics
+  - sar_readme
+  - sarlta_v0.tar
+  - SAR_ShapeFiles.tgz
+  - MidasV2PublishWindows/
+  - ch2_sar_der_mosaic_np/
+  - ch2_sar_der_mosaic_sp/
+- ohrc/
+  - ch2_ohrc_data_products_user_guide
+  - ch2_ohrc_pds_dp_archive_sis
+  - LTA_Assembly_Procedure
+  - ohr/
+  - OHRC_ShapeFiles/
+- lola/
+  - LRO LOLA elevation/topography and derived raster products, including downloaded files such as:
+    - LDSM_80S_20MPP_ADJ.tif
+    - LDEM_80S_20MPP_ADJ.tif
+    - LDEM_80S_20MPP_ADJ_ERR.tif
+    - LDEC_80S_20MPP_ADJ.tif
+    - LPSR_80S_20MPP_ADJ.tiff, if present
+- Other project files and scientific references, if present.
+
+This is an approximate inventory, not a guarantee that every item exists at the stated location or that every file is a valid scientific raster.
+
+First locate the actual project root and inspect the real folder contents. Do not assume these paths are correct without checking.
+
+Some OHRC catalog footprints may exist without their corresponding image rasters. A previous diagnostic visualization reported 312 cataloged OHRC observation-strip footprints but zero matching image rasters in the searched location. Verify this finding against the current filesystem. Do not treat footprint polygons as image observations.
+
+Some previously generated diagnostic figures indicated:
+- A potential DFSAR ice-related layer attributed to ICY_CRATERS_SP.tif and a cited study.
+- A LOLA-derived PSR layer with an indicated shadowed area.
+These are preliminary diagnostic outputs, not automatically validated ground truth. Locate the underlying files, identify their provenance, verify their interpretation, and document whether they are suitable for this project.
+
+Never download, fabricate, or silently substitute data to hide a missing-data problem.
+
+---
+
+## 5. Documentation-First Scientific Data Audit
+
+Before processing any imagery, inspect the supplied user guides, archive specifications, README files, shapefile metadata, and available product documentation.
+
+Determine, for every dataset:
+
+1. Original filename and actual filesystem path.
+2. File format and product type.
+3. Scientific instrument and originating mission.
+4. What the product measures and what it does not measure.
+5. Native spatial resolution and pixel size, where documented.
+6. Coordinate reference system, projection, datum, and map units.
+7. Spatial coverage and latitude/longitude or projected-coordinate extent.
+8. Band count, band descriptions, units, and data types.
+9. NoData values, masks, fill values, and invalid pixels.
+10. Calibration and preprocessing status, where documented.
+11. Incidence angle, polarization, frequency, illumination, or acquisition metadata where applicable.
+12. Availability of georeferencing, geotransforms, coordinate systems, and auxiliary files.
+13. Data-quality limitations and suitability for subsequent analysis.
+14. Whether the product is raw, calibrated, derived, mosaicked, or a vector footprint catalog.
+
+Use the product documentation as the primary source for interpreting the data. Cite the exact local document, section, or page when practical.
+
+Do not infer physical meaning from filenames alone.
+
+If a product's meaning cannot be verified, label it “unverified” rather than assigning it a speculative scientific interpretation.
+
+---
+
+## 6. Phase 1 Preprocessing and Image-Processing Requirements
+
+Develop a robust preprocessing workflow using the actual data. Choose methods according to each product's scientific properties rather than applying the same filters indiscriminately.
+
+### A. Raster integrity and geospatial validation
+
+- Verify that files open successfully and contain valid raster data.
+- Inspect raster dimensions, resolution, band count, data types, NoData values, and georeferencing.
+- Check for corrupted, truncated, empty, or incorrectly extracted files.
+- Identify duplicated files and distinguish alternate versions from genuinely independent observations.
+- Validate coordinate reference systems and map units.
+- Detect missing coordinate metadata and flag any assumptions.
+- Verify raster alignment and spatial overlap before pixelwise comparison.
+- Record all relevant warnings and failures.
+
+### B. Data quality and invalid-pixel handling
+
+- Generate valid-data masks.
+- Quantify NoData and invalid-pixel proportions.
+- Identify saturation, extreme values, striping, gaps, seams, and artifacts where appropriate.
+- Inspect histograms and robust descriptive statistics.
+- Preserve original measurements and create derived outputs separately.
+- Avoid replacing scientifically meaningful values with arbitrary constants.
+- Do not silently interpolate across missing observations or invent measurements.
+
+### C. OHRC image preprocessing
+
+If actual OHRC image rasters are present:
+
+- Inspect image intensity distributions and image metadata.
+- Assess contrast, dynamic range, illumination variation, and potential image artifacts.
+- Test suitable contrast enhancement methods, such as robust percentile stretching and CLAHE, where justified.
+- Compare carefully selected denoising filters, such as median, Gaussian, or bilateral filtering, only where their use is appropriate.
+- Evaluate edge-preserving enhancement for crater rims, boulders, and surface morphology.
+- Preserve a minimally processed reference image for comparison.
+- Record each filter's parameters and its effects on important surface features.
+
+Do not apply aggressive denoising that erases small geological features.
+
+If OHRC image rasters are missing, preprocess available metadata and vector catalogs as appropriate, produce a clear missing-data report, and do not claim that OHRC imagery has been processed.
+
+### D. DFSAR radar preprocessing
+
+First identify the exact DFSAR product type and the measurements actually available.
+
+Determine whether the data are raw SAR, calibrated radar imagery, derived mosaics, backscatter products, polarimetric channels, or other products.
+
+Where supported by documentation and the data:
+
+- Check radiometric calibration and product scaling.
+- Inspect radar intensity or backscatter distributions.
+- Evaluate speckle reduction using suitable methods such as Lee, refined Lee, or other justified filters.
+- Compare filtered and unfiltered results quantitatively and visually.
+- Preserve potentially meaningful small targets and radar texture.
+- Check incidence-angle effects, geometric distortions, mosaicking artifacts, and invalid regions where relevant.
+- Inspect available polarization channels and their compatibility.
+- Record the effect of each preprocessing operation on data statistics and spatial structure.
+
+Do not assume that all products contain complex SAR data or support polarimetric decomposition. Do not perform phase-sensitive operations on products that lack the required complex measurements.
+
+Do not apply optical-image enhancement techniques blindly to calibrated radar measurements.
+
+### E. LOLA topographic preprocessing
+
+For available LOLA-derived elevation and terrain products:
+
+- Verify whether each raster represents elevation, slope, error, illumination, or another derived variable.
+- Check vertical and horizontal units.
+- Inspect elevation distributions, extreme values, missing pixels, and discontinuities.
+- Evaluate DEM artifacts and local surface roughness where appropriate.
+- Generate slope and terrain derivatives only when the source raster and its projection support valid calculations.
+- Select an appropriate neighborhood size for terrain derivatives and explain the choice.
+- Preserve elevation uncertainty or error information where available.
+- Do not treat an elevation-error raster as an elevation raster.
+- Do not interpret a dark image or a low-elevation value as proof of permanent shadow or water ice.
+
+For PSR products, verify the scientific definition, thresholding method, source, and spatial resolution before interpreting their classifications.
+
+### F. Filter and enhancement comparison
+
+Where multiple preprocessing options are scientifically appropriate, compare them rather than choosing a method arbitrarily.
+
+For each relevant data type, evaluate:
+- Original versus processed appearance.
+- Signal and noise characteristics.
+- Preservation of boundaries and small features.
+- Changes in descriptive statistics.
+- Valid-data coverage before and after processing.
+- Processing time and memory use.
+- Suitability for the subsequent scientific task.
+
+Use quantitative metrics only when their assumptions are satisfied. For example, do not report PSNR or SSIM as measures of scientific correctness when no suitable reference image exists.
+
+Select the final preprocessing configuration based on documented evidence and explain its limitations.
+
+---
+
+## 7. Notebook-Based Implementation Requirements
+
+Use Python Jupyter Notebook files (.ipynb) as the primary implementation format.
+
+Do not make ordinary .py scripts the primary deliverables. Small auxiliary configuration files are acceptable when necessary.
+
+Create a clear, ordered notebook for Phase 1, for example:
+
+notebooks/phase1_data_audit_preprocessing.ipynb
+
+The notebook must be executable cell by cell, with clear dependencies and saved intermediate outputs.
+
+### Mandatory cell structure
+
+At the beginning of every code cell, include a short comment explaining the task performed by that cell in exactly two concise sentences.
+
+Use the same two-sentence convention for markdown explanations immediately preceding a processing section where useful.
+
+For example:
+
+# This cell verifies raster dimensions, georeferencing, and NoData values for the selected dataset.
+# It records the findings in the Phase 1 audit report without changing the source file.
+
+Each code cell must:
+- Have one clearly defined purpose.
+- Use descriptive variable names.
+- Include comments for non-obvious processing steps.
+- Avoid unnecessary repeated computation.
+- Handle missing files and processing errors explicitly.
+- Save important results to the designated Phase 1 output directory.
+- Avoid requiring all cells to run simultaneously.
+- Avoid silently swallowing exceptions.
+- Report meaningful progress and processing status.
+
+Organize the notebook in a logical sequence: configuration, file discovery, documentation review, inventory, integrity checks, metadata inspection, quality assessment, preprocessing experiments, comparison, final product generation, validation, and report generation.
+
+Include a final verification cell that checks whether the required outputs exist and whether the results are internally consistent.
+
+The notebook should be restartable from the beginning, and its outputs should not depend on hidden variables or undocumented manual steps.
+
+---
+
+## 8. Output Folder and File Management
+
+Create an output directory inside the project root. Use a structure similar to the following, adjusting only where necessary to match the actual project layout.
+
+outputs/
+- phase1/
+  - reports/
+  - figures/
+  - ohrc/
+  - dfsar/
+  - lola/
+  - quality_control/
+  - metadata/
+  - logs/
+  - manifests/
+  - processed_data/
+- phase2/
+- phase3/
+- phase4/
+- phase5/
+
+Create the future phase folders for organization, but do not put uncomputed results into them.
+
+Within outputs/phase1/, save:
+
+**Reports**
+- phase1_data_audit_report.md
+- phase1_data_inventory.csv
+- phase1_preprocessing_report.md
+- phase1_missing_data_report.md
+
+**Figures**
+- Raster previews and spatial coverage maps.
+- Original-versus-processed comparison figures.
+- Histograms and robust distribution plots.
+- NoData and valid-data masks.
+- Filter comparison plots where relevant.
+- Spatial overlap and alignment diagnostics.
+- Data-quality and processing-summary figures.
+
+**Data products**
+- Processed OHRC outputs, only if source imagery exists.
+- Processed DFSAR outputs appropriate to the verified product type.
+- Processed LOLA and terrain derivatives where justified.
+- Valid-data masks and geospatial metadata.
+- Processing configuration and provenance records.
+
+**Quality control and manifests**
+- A machine-readable file manifest.
+- A record of preprocessing methods and parameter values.
+- Processing logs and warnings.
+- Checksums for source and important output files where practical.
+- A list of unavailable or unsupported operations.
+
+Use GeoTIFF for georeferenced raster outputs where suitable and preserve geospatial metadata. Use GeoPackage or another appropriate documented format for vector outputs. Prefer CSV or JSON for tabular and machine-readable reports.
+
+Never overwrite original downloaded datasets. Never place modified files in the raw-data directories.
+
+---
+
+## 9. Computational Constraints
+
+The project is being developed on a Windows laptop with approximately 16 GB RAM and a limited local SSD.
+
+The LOLA data include large GeoTIFF files, including files in the approximate 1–4 GB range. The total dataset may be larger than available working memory.
+
+Therefore:
+
+- Inspect file sizes before processing.
+- Use windowed raster reading and writing.
+- Avoid loading entire large rasters into RAM unnecessarily.
+- Use chunked processing, tiled outputs, and appropriate compression.
+- Estimate temporary disk requirements before generating large derived datasets.
+- Monitor memory consumption and processing time.
+- Avoid duplicating large files unless necessary.
+- Use overviews or lower-resolution previews for exploratory visualization while retaining full-resolution data for appropriate scientific processing.
+- Clearly distinguish previews from scientific analysis products.
+- Avoid cloud services or paid resources unless I explicitly approve them.
+
+Use suitable Python libraries such as rasterio, GDAL, NumPy, SciPy, Matplotlib, GeoPandas, Shapely, scikit-image, and other necessary packages after verifying the local environment. Do not install unnecessary packages or upgrade the environment indiscriminately.
+
+If a processing task exceeds the available resources, stop safely, document the limitation, and recommend an appropriate chunked or alternative approach.
+
+---
+
+## 10. Scientific Integrity and Provenance
+
+These requirements apply to every phase.
+
+1. Use the actual downloaded scientific datasets for all claimed observations.
+2. Do not use synthetic data to replace missing satellite observations.
+3. Do not invent pixel values, ice detections, labels, accuracy metrics, or scientific results.
+4. Do not use random noise or simulated ice maps as if they were observed data.
+5. Distinguish real observations from illustrations, previews, derived products, and hypotheses.
+6. Preserve original data and maintain a clear record of every transformation.
+7. Record the source file, method, parameters, software version, and output path for every derived product.
+8. Do not claim a detection accuracy score without suitable reference labels and a defensible validation method.
+9. Do not call an area permanently shadowed without a suitable verified illumination or PSR source.
+10. Do not calculate ice volume, mass, concentration, or recoverable resources unless the observations and assumptions support the calculation.
+11. Explicitly state when a requested analysis cannot be completed because of missing data, unsupported measurements, or insufficient validation evidence.
+12. Separate established findings from uncertain interpretations.
+
+Do not use the mere existence of a catalog footprint as evidence that its corresponding image raster exists.
+
+Do not assume that the previously identified DFSAR ice-related raster or LOLA PSR raster is valid until its provenance and contents have been checked.
+
+---
+
+## 11. Phase 1 Acceptance Criteria
+
+Phase 1 is complete only when all applicable tasks below have been attempted, their outcomes documented, and the notebook's final verification cell executed.
+
+- The project root and actual dataset directories have been identified.
+- All accessible files have been inventoried.
+- Relevant user guides and product specifications have been inspected.
+- The scientific meaning and processing status of each important dataset have been documented.
+- Missing rasters, extraction problems, and unsupported data types have been identified.
+- Raster integrity, georeferencing, coverage, and NoData checks have been performed where applicable.
+- Suitable preprocessing and image-enhancement alternatives have been compared.
+- Final preprocessing choices have been justified scientifically.
+- Analysis-ready Phase 1 outputs have been generated wherever the source data permit.
+- Original data remain unchanged.
+- Output images and reports have been saved under outputs/phase1/.
+- The notebook can be executed cell by cell with documented dependencies.
+- Limitations, unresolved issues, and computational constraints have been recorded.
+- No fabricated scientific results have been presented.
+
+If an input dataset is missing, do not falsely mark the phase as fully successful. Report the completed work, blocked tasks, and the exact files required to resolve the blockage.
+
+---
+
+## 12. Required Final Phase 1 Report
+
+When Phase 1 work is finished, produce a comprehensive report that includes:
+
+1. Executive summary.
+2. Project directory and actual file inventory.
+3. Dataset-by-dataset scientific interpretation.
+4. Documentation reviewed and references to the relevant local guides.
+5. File integrity and geospatial metadata findings.
+6. Data coverage and spatial overlap findings.
+7. Missing, invalid, or unsupported data.
+8. OHRC preprocessing findings and outputs, if applicable.
+9. DFSAR preprocessing findings and outputs, if applicable.
+10. LOLA and terrain-processing findings and outputs, if applicable.
+11. Filter and enhancement comparison results.
+12. Final preprocessing parameters and justification.
+13. Figures and their exact saved paths.
+14. Processed-data outputs and their exact saved paths.
+15. Runtime, peak memory observations where measurable, and disk usage.
+16. Scientific limitations and unresolved risks.
+17. A readiness assessment for Phase 2, clearly explaining which data are suitable for radar-based ice investigation and which additional inputs, if any, are needed.
+18. A list of completed tasks, blocked tasks, and recommended next steps.
+
+Clearly state whether the evidence is sufficient to begin Phase 2, whether further data are required, or whether only a limited exploratory analysis is currently justified.
+
+Do not report a task as complete unless the corresponding output or validation evidence actually exists.
+
+---
+
+## 13. Mandatory Stop and Approval Gate
+
+After completing Phase 1 and producing its final report:
+
+1. Save the final notebook and all Phase 1 deliverables.
+2. Summarize what was completed and what remains unresolved.
+3. Provide the exact locations of the notebook, report, figures, and processed data.
+4. State whether Phase 2 is scientifically ready to begin.
+5. Ask me: “Phase 1 is complete. Would you like me to start Phase 2: Subsurface Lunar Ice Detection Using DFSAR Radar Polarimetry?”
+
+**STOP EXECUTION HERE.**
+
+Do not create Phase 2 algorithms, run ice detection, generate final ice probability maps, perform landing-site selection, plan rover routes, calculate resource estimates, or build the final dashboard before I explicitly approve Phase 2.
+
+You may create empty future-phase directories, but no future-phase implementation should begin automatically.
+
+Wait for my response before proceeding.
+
+## 14. First Action
+
+Start by inspecting the real project directory, identifying the available raw datasets and their documentation, and confirming the installed Python environment.
+
+Then implement Phase 1 in the Jupyter Notebook, cell by cell, following every requirement above.
+
+Prioritize scientific validity, data provenance, reproducibility, memory efficiency, and honest reporting over visual appearance or claims of progress.
