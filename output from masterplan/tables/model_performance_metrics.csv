@@ -1,3 +1,0 @@
-Dataset_Split,Sample_Size,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Weak_Label_Caveat
-Validation (Haworth Crater),34659,1.0,1.0,1.0,1.0,1.0,Ground truth is synthetic/weakly labeled based on Putrevu et al. 2023 polarimetric thresholds
-Testing (Shoemaker & Sverdrup Craters),50000,1.0,1.0,1.0,1.0,1.0,Crater-wise split ensures zero spatial autocorrelation leakage

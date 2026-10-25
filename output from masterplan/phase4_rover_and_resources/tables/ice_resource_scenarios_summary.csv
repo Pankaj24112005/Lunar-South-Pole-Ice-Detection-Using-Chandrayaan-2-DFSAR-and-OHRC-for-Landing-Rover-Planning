@@ -1,4 +1,0 @@
-Scenario,Depth_m,Regolith_Porosity,Total_Ice_Volume_m3,Total_Ice_Mass_Tonnes,Total_Ice_Mass_Million_Tonnes,Mean_Volumetric_Ice_Pct
-"Conservative (2m Depth, 45% Porosity)",2.0,0.45,22924320.0,21021604.0,21.02,9.42
-"Nominal (5m Depth, 40% Porosity)",5.0,0.4,57310816.0,52554040.0,52.55,9.42
-"Optimistic (5m Depth, 35% Porosity)",5.0,0.35,65907404.0,60437104.0,60.44,10.83

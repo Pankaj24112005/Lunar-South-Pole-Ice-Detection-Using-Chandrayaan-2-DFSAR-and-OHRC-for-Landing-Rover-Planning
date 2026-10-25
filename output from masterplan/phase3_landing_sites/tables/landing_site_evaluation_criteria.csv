@@ -1,6 +1,0 @@
-Criterion_Code,Criterion_Name,Weight,Optimal_Threshold,Physical_Rationale
-C1,Slope Safety,0.25,<= 8.0 deg,Prevents lander tip-over on touchdown
-C2,Ice Proximity,0.25,2.0 to 7.0 km,Enables rover traverse within 1 lunar day while landing outside freezing PSR
-C3,Solar Illumination,0.2,>= 65% availability,Solar power generation and direct Earth communication line-of-sight
-C4,Hazard Avoidance,0.2,"Boulder density < 0.10, Wall dist > 300m",Mitigates rock collision and mass-wasting debris hazards
-C5,Micro-Roughness,0.1,<= 8.0 m RMS,Assures smooth surface for landing gear footpads
